@@ -1,6 +1,6 @@
 ; CIMRCUMFLEX ACCENT
 ^::
-    Input, key, L1, {delete}{esc}{home}{end} ; ... etc
+    Input, key, L1, {delete}{esc}{home}{end}{backspace} ; ... etc
     
     if (key == "u"){ 
         SendInput, {U+016D}
