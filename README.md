@@ -30,7 +30,7 @@ Note that the script has some known issues:
 - Sometimes you completely lose the ability to type. This is easily fixed by right-clicking on the AutoHotkey icon in the Windows tray and selecting "Reload This Script".
 - When you have the script running, some small things don't work as they used to:
   - Pressing the ^ dead key twice WITHOUT the script will make two circumflex accents appear (like so ^^). WITH the script, a single one will appear after pressing it 3 times.
-  - Pressing the ^ dead key WITH the script and then pressing backspace will do nothing. WITHOUT the script, it would work normally.
+  - Pressing End, Home, Delete, Esc or Backspace after inputting ^ will make the ^ character appear.
   
 These behaviour differences are pretty small, so they shouldn't make a huge difference, but keep them it mind. If anything goes wrong, just reload the script, as explained.
 
