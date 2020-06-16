@@ -2,16 +2,16 @@
 An AutoHotkey script for typing Esperanto accented characters (ĉ ŭ Ĵ etc) with dead keys (^ + c = ĉ)
 
 
-***** DESCRIPTION *****
+## DESCRIPTION
 
-I type using a Portuguese keyboard, which features "dead keys" for typing accents, like this: ´`^~¨áüñóõê. The way a dead key works is, when you press one (for example, ^) the next letter you type will be modified (a becomes â).
+I type using a Portuguese keyboard, which features "dead keys" for typing accents, like this: ```´`^~¨áüñóõê```. The way a dead key works is, when you press one (for example, ^) the next letter you type will be modified (a becomes â).
 
-When I started learning Esperanto, I wanted to write the Esperanto accented characters (ĉŝĵĝĥŭĈŜĴĜĤŬ) this way, but Windows would not allow it. If you know of a way to enable this in Windows, please let me know! Anyway, that's why I decided to create this handy script. If you're facing a similar problem, hopefully this will help solve it!
+When I started learning Esperanto, I wanted to write the Esperanto accented characters (`ĉŝĵĝĥŭĈŜĴĜĤŬ`) this way, but Windows would not allow it. If you know of a way to enable this in Windows, please let me know! Anyway, that's why I decided to create this handy script. If you're facing a similar problem, hopefully this will help solve it!
 
 
-***** INSTALL & USE *****
+## INSTALL & USE
 
-1. Download the script (a file called esperanto_pt.ahk) from this repository
+1. Download the script ([esperanto_pt.ahk](esperanto_pt.ahk)) from this repository
 2. Install AutoHotkey: www.autohotkey.com
 3. Use AutoHotkey to run the script file you downloaded
 4. Try it out! It should be working
@@ -21,7 +21,7 @@ NOTE: Because the Portuguese keyboard doesn't have a breve ˘ key, the ŭ and Ŭ
 ^ + U = Ŭ
 
 
-***** LIMITATIONS *****
+## LIMITATIONS
 I only tested this on Windows 10 with a standard European Portuguese keyboard, using AutoHotkey version 1.1.30.01. It works pretty well for me, but I can't guarantee that I'll be able to help you get it working if you run into problems.
 
 By all means, please try it and let me know whether it worked, or any problems you have or had!
